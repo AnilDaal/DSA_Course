@@ -7,6 +7,6 @@ public class Recursion01{
 			return;
 		}
 		System.out.print(k);
-		fun(n-1,k+1)
-;	}
+		fun(n-1,k+1);
+	}
 }
