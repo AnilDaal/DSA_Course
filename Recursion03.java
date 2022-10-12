@@ -6,7 +6,6 @@ public class Recursion03{
 		return fact(n-1,k);
 	}
 	public static void main(String[] args) {
-
 		System.out.print(fact(4,1));
 	}
 }
