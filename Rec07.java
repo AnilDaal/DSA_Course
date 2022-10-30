@@ -15,7 +15,6 @@ public class Rec07{
             else 
             return c;
         }
-
     }
     public static int rope(int len,int a,int b,int c){
         if(len==0)
