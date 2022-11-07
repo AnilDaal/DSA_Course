@@ -19,7 +19,6 @@ public class Rec08{
         s.setCharAt(n,str.charAt(i));
         s.setCharAt(i,str.charAt(n));
         str = s.toString();
-        
             fun(n+1,str);
         s.setCharAt(n,str.charAt(i));
         s.setCharAt(i,str.charAt(n));
