@@ -15,7 +15,7 @@ public class Rec08{
             return;
         }
         for(int i=n;i<str.length();i++){
-        tringBuilder s = new StringBuilder(str);
+        StringBuilder s = new StringBuilder(str);
         s.setCharAt(n,str.charAt(i));
         s.setCharAt(i,str.charAt(n));
         str = s.toString();
